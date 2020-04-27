@@ -1,5 +1,5 @@
 # Mini-DSO
-This is a simple DSO made with STC MCU. 
+This is a simple oscilloscope made with STC MCU. 
 
 Material list:
 
