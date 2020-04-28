@@ -56,5 +56,5 @@ Version 0.2
 Add Normal Sweep and Single Sweep Function. This is more useful function.
 
 ![image](pic/IMG_6265.JPG)
-![image](pic/IMG_6266.jpg)
-![image](pic/IMG_6268.jpg)
+![image](pic/IMG_6266.JPG)
+![image](pic/IMG_6268.JPG)
