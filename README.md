@@ -1,6 +1,10 @@
 # Mini-DSO
 This is a simple oscilloscope made with STC MCU. 
-![image](https://github.com/CreativeLau/Mini-DSO/blob/master/pic/IMG_6270.JPG)
+You can use this Mini DSO to observe wave.
+Time Interval: 100us-500ms
+Voltage Range: 0-30V
+Draw Mode: Verctor or Dots
+![image](/pic/IMG_6270.JPG)
 
 Material list:
 ![image](pic/IMG_6243.jpg)
@@ -41,8 +45,12 @@ Li-ion Battery
 
 5V Booster Module
 
-B站视频教程: https://www.bilibili.com/video/BV1ai4y1t79R
-
-头条视频教程: https://www.ixigua.com/i6818625118101570060
+Bilibili Video Tutorial: https://www.bilibili.com/video/BV1ai4y1t79R
 
 YouTube Video Tutorial: https://youtu.be/c6gBv6Jcz7w
+
+2020-04-29 Version 0.2
+Add Normal Sweep and Single Sweep Function. This is more useful function.
+![image](pic/IMG_6265.JPG)
+![image](pic/IMG_6266.jpg)
+![image](pic/IMG_6268.jpg)
