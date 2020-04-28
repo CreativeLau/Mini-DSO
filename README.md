@@ -56,7 +56,7 @@ YouTube Video Tutorial: https://youtu.be/c6gBv6Jcz7w
 
 2020-04-29
 
-Version 0.2
+Version 0.2(under test, not upload yet)
 
 Add Normal Sweep and Single Sweep Function. This is a very useful function to observing the waveform mutation.
 
