@@ -1,9 +1,14 @@
 # Mini-DSO
 This is a simple oscilloscope made with STC MCU. 
-You can use this Mini DSO to observe wave.
+
+You can use this Mini DSO to observe waveform.
+
 Time Interval: 100us-500ms
+
 Voltage Range: 0-30V
-Draw Mode: Verctor or Dots
+
+Draw Mode: Vector or Dots
+
 ![image](/pic/IMG_6270.JPG)
 
 Material list:
@@ -53,7 +58,7 @@ YouTube Video Tutorial: https://youtu.be/c6gBv6Jcz7w
 
 Version 0.2
 
-Add Normal Sweep and Single Sweep Function. This is more useful function.
+Add Normal Sweep and Single Sweep Function. This is a very useful function to observing the waveform mutation.
 
 ![image](pic/IMG_6265.JPG)
 ![image](pic/IMG_6266.JPG)
