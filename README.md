@@ -1,7 +1,9 @@
 # Mini-DSO
 This is a simple oscilloscope made with STC MCU. 
 ![image](https://github.com/CreativeLau/Mini-DSO/blob/master/pic/IMG_6270.JPG)
+
 Material list:
+![image](pic/IMG_6243.jpg)
 
 STC8A8K64S4A12 MCU x 1 
 
