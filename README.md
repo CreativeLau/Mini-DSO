@@ -49,8 +49,12 @@ Bilibili Video Tutorial: https://www.bilibili.com/video/BV1ai4y1t79R
 
 YouTube Video Tutorial: https://youtu.be/c6gBv6Jcz7w
 
-2020-04-29 Version 0.2
+2020-04-29
+
+Version 0.2
+
 Add Normal Sweep and Single Sweep Function. This is more useful function.
+
 ![image](pic/IMG_6265.JPG)
 ![image](pic/IMG_6266.jpg)
 ![image](pic/IMG_6268.jpg)
