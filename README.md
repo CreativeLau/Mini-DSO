@@ -54,7 +54,10 @@ Bilibili Video Tutorial: https://www.bilibili.com/video/BV1ai4y1t79R
 
 YouTube Video Tutorial: https://youtu.be/c6gBv6Jcz7w
 
-2020-04-29
+Project information on Instructables: 
+https://www.instructables.com/id/Make-Your-Own-OscilloscopeMini-DSO-With-STC-MCU-Ea/
+
+2020-04-29 Update
 
 Version 0.2(under test, not upload yet)
 
