@@ -1,4 +1,5 @@
 # Mini-DSO
+==
 This is a simple oscilloscope made with STC MCU. 
 
 You can use this Mini DSO to observe waveform.
