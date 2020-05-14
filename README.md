@@ -1,5 +1,14 @@
-# Mini-DSO
-==
+# Mini-DSO  
+## Specification:
+* MCU: STC8A8K64S4A12
+* Display: 0.96" OLED with 128x64 resolution
+* Controller: One EC11 Encoder
+* Input: Single Channel
+* Sec/div: 500ms, 200ms, 100ms, 50ms, 20ms, 10ms, 5ms, 2ms, 1ms, 500us, 200us, 100us
+* 100us only available in Auto Trigger Mode
+* Voltage Range: 0-30V
+* Sampling Rating: 250kHz @100us/div
+
 This is a simple oscilloscope made with STC MCU. 
 
 You can use this Mini DSO to observe waveform.
