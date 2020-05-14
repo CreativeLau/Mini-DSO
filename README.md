@@ -1,6 +1,5 @@
-# Mini-DSO
-
-Specification:
+# Mini-DSO  
+## Specification:
 * MCU: STC8A8K64S4A12
 * Display: 0.96" OLED with 128x64 resolution
 * Controller: One EC11 Encoder
