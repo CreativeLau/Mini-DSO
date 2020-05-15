@@ -23,6 +23,7 @@ This is a simple oscilloscope made with STC8A8K MCU. Only servral components and
 * Capacitor:  
   * 47uF x 1  
   * 0.01uF x 1  
+* LED x 1
 * EC11 Encoder x 1  
 * Toggle Switch x 1  
 * 2-Pin Terminal x 1  
