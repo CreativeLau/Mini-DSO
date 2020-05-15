@@ -55,25 +55,35 @@ This is a simple oscilloscope made with STC8A8K MCU. Only servral components and
 ## Operations  
 ![image](Ver.0.3/img/operation.jpg)  
 All operations are completed by the EC11 Encoder. The input include single click, double click, long press, rotate and rotate while pressing. It seems a little complicated, don't worry, there are details below. The resources of this encoder have been almost exhausted. If there are new features, may need additional input component.  
-### Main Interface - Parameter Mode:  
+### Main Interface - Parameter Mode  
 * Single Click Encoder: Run/Stop sampling.  
 * Double Click Encoder: Enter Wave Scroll Mode.  
 * Long Press Encoder: Enter Settings Interface.  
 * Rotate Encoder: Adjust parameters.  
 * Rotate Encoder While Pressing: Switch between options.  
 * Switch Auto and Manual Range: Rotate Encoder clockwise continuous to enter auto range. Rotate Encoder anticlockwise to enter manual range.  
-### Main Interface - Wave Scroll Mode:  
+### Main Interface - Wave Scroll Mode  
 * Single Click Encoder: Run/Stop sampling.  
 * Double Click Encoder: Enter Parameter Mode.  
 * Long Press Encoder: Enter Settings Interface.  
 * Rotate Encoder: Scroll waveform horizontally. (only available when sampling stopped)  
 * Rotate Encoder While Pressing: Scroll waveform vertically (only available when sampling stopped)  
-### Settings Interface:  
+### Settings Interface  
 * Single Click Encoder: N/A  
 * Double Click Encoder: N/A  
 * Long Press Encoder: Return to Main Interface.  
 * Rotate Encoder: Adjust parameters.  
 * Rotate Encoder While Pressing: Switch between options.  
+## Functions
+* Trigger Level: For repeating signal, trigger level could make it stable on display. For single-shot signal, trigger level could capture it.  
+* Trigger Slope: Trigger slope determines whether the trigger point is on the rising or the falling edge of a signal.  
+* Trigger Mode:
+  * Auto Mode: Sweep continuous. Single click the encoder to stop or run sampling. If triggered, the waveform will be shown on the display and the trigger position will be put at the center of chart. Otherwise, the waveform will scroll irregular, and 'Fail' will be shown on the display.
+  * Normal Mode: When complete pre-sampling, you can input signal. If triggered, waveform shown on the display and waiting for new trigger. If no new trigger, the waveform will be kept.
+  * Single Mode: When complete pre-sampling, you can input signal. If triggered, waveform shown on display and stop sampling. User need to single click Encoder to start next sampling.  
+  * For Normal Mode and Single Mode, be sure the trigger level has been adjusted correctly, otherwise no waveform will be shown on the display.  
+* Indicator: Generally, the indicator on means the sampling is running. The more important use is in Single and Normal Trigger Mode, before get into the trigger stage, pre-sampling is required. The indicator will not on during pre-sampling stage. We should not input signal until the indicator comes on. The longer time scale selected, the longer waiting time of pre-sampling.  
+* Save Settings: When exit settings interface, all parameters in settings and main interface will be saved in EEPROM.  
 ## Tutorial  
 * First Version: How to bulit step by step.
   * Bilibili: https://www.bilibili.com/video/BV1ai4y1t79R  
