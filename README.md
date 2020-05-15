@@ -61,8 +61,8 @@ All operations are completed by the EC11 Encoder. The input include single click
 * Long Press Encoder: Enter Settings Interface.  
 * Rotate Encoder: Adjust parameters.  
 * Rotate Encoder While Pressing: Switch between options.  
-* Switch Auto and Manual Range: Rotate Encoder clockwise continuous to enter auto range. Rotate Encoder anticlockwise to enter manual range.
-###M ain Interface - Wave Scroll Mode:  
+* Switch Auto and Manual Range: Rotate Encoder clockwise continuous to enter auto range. Rotate Encoder anticlockwise to enter manual range.  
+### Main Interface - Wave Scroll Mode:  
 * Single Click Encoder: Run/Stop sampling.  
 * Double Click Encoder: Enter Parameter Mode.  
 * Long Press Encoder: Enter Settings Interface.  
