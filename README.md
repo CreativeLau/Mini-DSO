@@ -1,17 +1,17 @@
 # Mini-DSO  
 ## Preview  
-![image](Ver.0.3/img/IMG_6298.jpg)
 This is a simple oscilloscope made with STC8A8K MCU. Only servral components and easy to bulit. The functions could cover simple measurement. 
-## Specification
-* MCU: STC8A8K64S4A12 @27MHz
-* Display: 0.96" OLED with 128x64 resolution
-* Controller: One EC11 Encoder
-* Input: Single Channel
+![image](Ver.0.3/img/IMG_6298.jpg)  
+## Specification  
+* MCU: STC8A8K64S4A12 @27MHz  
+* Display: 0.96" OLED with 128x64 resolution  
+* Controller: One EC11 Encoder  
+* Input: Single Channel  
 * Sec/div: 500ms, 200ms, 100ms, 50ms, 20ms, 10ms, 5ms, 2ms, 1ms, 500us, 200us, 100us  
-*`100us only available in Auto Trigger Mode`*
-* Voltage Range: 0-30V
+*`100us only available in Auto Trigger Mode`*  
+* Voltage Range: 0-30V  
 * Sampling Rating: 250kHz @100us/div  
-## Material list
+## Material list  
 ![image](pic/IMG_6243.jpg)  
 * STC8A8K64S4A12 MCU x 1  
 * SSD1306 OLED(SPI) x 1  
